@@ -1,0 +1,47 @@
+
+.dsc-catalog-card {
+    width: 90%;
+    max-width: 746px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  
+  }
+  
+  .container-card h1 {
+    text-align: center;
+    color: var(--dsc-color-bg-tertiary);
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  .dsc-card {
+    width: 80%;
+    max-width: 746px;
+    margin: 10px auto;
+    border: 1px solid var(--dsc-color-btn-primary);
+    border-radius: 6px;
+  
+  }
+  
+  
+  .dsc-catalog-card img{
+   max-width: 70%;
+  }
+  .dsc-catalog-card p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color:#5E5E5E;
+  }
+  
+  @media(min-width: 1200px){
+    .container-card h1 {
+      font-size: 32px;
+    
+    }
+    .dsc-catalog-card p {
+      font-size: 20px;
+    }
+  }
